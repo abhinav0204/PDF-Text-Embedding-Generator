@@ -27,11 +27,6 @@ container_name = "gen-ai-container"
 mount_point = "/mnt/gen-ai-container"
 ```
 
-# PDF-Text-Embedding-Generator
-
-## Project Description  
-This project demonstrates an end-to-end solution for extracting text from PDF files stored in **Azure Blob Storage** and generating embeddings using open-source **LLMs** in an **Azure Databricks** environment. It integrates Azure services with natural language processing capabilities, offering a scalable and efficient workflow.
-
 ---
 
 ## Features  
