@@ -58,47 +58,6 @@ Follow these steps to set up the project:
     pip install PyPDF2 sentence-transformers azure-storage-blob
    ```
 
-
-Here’s the comprehensive README.md file with proper structure and flow:
-
-
-
-# PDF-Text-Embedding-Generator
-
-## Project Description  
-This project provides an end-to-end pipeline for extracting text from PDF files stored in **Azure Blob Storage** and generating text embeddings using open-source **LLMs** in an **Azure Databricks** environment. It demonstrates the integration of Azure services with natural language processing techniques, making it a scalable and efficient solution.
-
----
-
-## Features  
-- **Azure Blob Storage Mounting** on Databricks.  
-- **PDF Text Extraction** using PyPDF2.  
-- **Text Embedding Generation** using Sentence Transformers.  
-- Robust **Error Handling and Validation**:
-  - Mount point verification.  
-  - PDF file existence checks.  
-  - Text extraction and embedding validation.
-
----
-
-## Installation  
-
-Follow these steps to set up the project:
-
-1. **Clone this repository**:  
-   ```bash
-   git clone https://github.com/<your-username>/PDF-Text-Embedding-Generator.git
-   cd PDF-Text-Embedding-Generator
-2. Configure Azure Blob Storage credentials in your Databricks environment.
-
-3. Mount the Blob Storage container to Databricks using the `mount_storage.py` script.
-
-4. Install the required Python dependencies:
-   
-```bash
-pip install PyPDF2 sentence-transformers azure-storage-blob
-```
-
 ## Usage
 
 1. Upload PDF files to the specified Azure Blob Storage container.
